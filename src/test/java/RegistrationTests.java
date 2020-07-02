@@ -60,7 +60,6 @@ public class RegistrationTests extends BaseTest {
      //   registerHotelPage.clickOnSelectOne();
         basePage = registerHotelPage.clickSaveButton();
         Assert.assertTrue(registerHotelPage.checkForErrorWhileSaveTheDefaultValueForCountryDropDown(), "Country: Validation Error: Value is required.");
-
     }
 
     @Test
